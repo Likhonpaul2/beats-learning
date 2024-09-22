@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+
+/*========== nav area =========== */
+.nav {
+    display: flex;
+    /* background-color: rgb(133, 133, 133); */
+    /* height: 100px; */
+}
+
+.logo_img {
+    margin: 19px 0 0 68px;
+    cursor: pointer;
+}
+
+.nav .nav_links {
+    margin: 68px auto;
+
+}
+
+.nav .nav_links ul li {
+    display: inline;
+}
+
+.nav .nav_links ul li a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 1.8vw 0 0;
+    transition: .3s all ease-in-out;
+
+}
+
+.nav .nav_links ul li a:hover {
+    text-decoration: underline;
+    color: #0890f1;
+}
+
+.singIn_login_navLinks {
+    margin: 68px auto;
+}
+
+.singIn_login_navLinks a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 1.8vw 0 0;
+    transition: .3s all ease-in-out;
+}
+
+.singIn_login_navLinks a:hover {
+    text-decoration: underline;
+    color: #0890f1;
+}
+
+.singIn_login_navLinks button {
+    background-color: #54B8FF;
+    color: #fff;
+    width: 98px;
+    height: 34px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+
+.singIn_login_navLinks button:hover {
+    filter: drop-shadow(5px 5px 10px #0890f1);
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+
+
+
+/* =========Hero section start============  */
+
+
+.hero {
+    display: flex;
+}
+
+.hero_left {
+    /* border: 1px solid black; */
+    width: 50%;
+    padding: 3vh 0 0 114px;
+    height: auto;
+}
+
+.hero_left h3 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.235em;
+    text-align: left;
+    color: #2F2B71;
+
+}
+
+.hero_left h2 {
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 81.55px;
+    text-align: left;
+    color: #5F596E;
+    margin-top: 2vh;
+}
+
+.hero_left p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 31.2px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000000;
+    margin-top: 2vh;
+
+
+}
+
+.hero_left button {
+    width: 197px;
+    height: 56px;
+    top: 608px;
+    left: 114px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18.72px;
+    letter-spacing: 0.105em;
+    background: linear-gradient(90deg, #54B8FF -1.36%, #54B8FF 105.62%);
+    box-shadow: 0px 0px 30px 0px #41877B40;
+    border: none;
+    transition: .3s all ease-in-out;
+    margin-top: 3vh;
+
+}
+
+.hero_left button:hover {
+    filter: drop-shadow(5px 5px 10px #0890f1);
+    border: 1px solid #000000;
+    color: #000000;
+    cursor: pointer;
+}
+
+.top_left_img {
+    position: absolute;
+    left: 1px;
+    top: 20px;
+}
+
+.top_left_bottom_img {
+    position: absolute;
+    left: 1px;
+    bottom: 20px;
+}
+
+.middle_top_img {
+    position: absolute;
+    left: 700px;
+    top: 150px;
+}
+
+
+/* right hero  */
+.girl-avatar {
+    position: relative;
+    left: 80px;
+}
+
+.top_right_img {
+    position: relative;
+    bottom: 500px;
+    left: 50px;
+}
+
+.bottom_right_img {
+    position: relative;
+    left: 650px;
+    bottom: 150px;
+}
+
+/*================ second_section ============= */
+.second_section {
+    display: flex;
+    margin-top: -100px;
+}
+
+.left_second_section {
+    width: 50%;
+}
+
+.right_second_section {
+    width: 529px;
+    height: 353px;
+    padding: 15vh 0;
+
+}
+
+.right_second_section h2 {
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 62px;
+    text-align: left;
+    color: #04004D;
+}
+
+.right_second_section p {
+    color: #336C61;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin: 2vh 0;
+
+}
+
+.right_second_section button {
+    width: 197px;
+    height: 56px;
+    top: 608px;
+    left: 114px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18.72px;
+    letter-spacing: 0.105em;
+    background: linear-gradient(90deg, #54B8FF -1.36%, #54B8FF 105.62%);
+    box-shadow: 0px 0px 30px 0px #41877B40;
+    border: none;
+    transition: .3s all ease-in-out;
+    margin-top: 3vh;
+
+}
+
+.right_second_section button:hover {
+    filter: drop-shadow(5px 5px 10px #0890f1);
+    border: 1px solid #000000;
+    color: #000000;
+    cursor: pointer;
+}
+
+/*============ third section start================  --> */
+
+.third_section {
+    padding: 5vh 11vw 7vh 11vw;
+    display: flex;
+    gap: 10vw;
+    text-align: center;
+
+}
+
+.card {
+    width: 290px;
+    height: 278px;
+    text-align: center;
+}
+
+.card h2 {
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin: 3vh 0;
+}
+
+/* <!--============ featured section end ================  --> */
+.feature_area {
+    padding: 0 0 0 130px;
+    margin: 5vh 0;
+
+}
+
+.feature_section {
+    /* padding: 0 0 0 130px; */
+    display: flex;
+    gap: 8vw;
+}
+
+.feature_area h2 {
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: left;
+}
+
+.feature_area p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #BDBDBD;
+    margin-top: 10px;
+}
+
+.feature_card {
+    width: 350px;
+    height: 357.52px;
+    border-radius: 12px 0px 0px 0px;
+    margin: 10vh 0;
+}
+
+.feature_card h2 {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 25.5px;
+    text-align: left;
+    color: #000000;
+}
+
+.feature_card p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #878787;
+}
+
+.elements i {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-right: 10px;
+}
+
+/*========== sample_learning ==========*/
+
+.sample_learning {
+    padding: 0 0 0 130px;
+    display: flex;
+}
+
+.left_sample {
+    width: 50%;
+}
+
+.right_sample {
+    margin-left: 6vw;
+}
+
+.the_circle {
+    position: relative;
+    bottom: 550px;
+    right: 600px;
+    z-index: -1;
+}
+
+.half_circle {
+    position: relative;
+    z-index: -1;
+    bottom: 200px;
+    left: 320px;
+
+}
+
+/* <!--============ form section start ================  --> */
+.form_section {
+    padding: 0 0 0 180px;
+    display: flex;
+
+}
+
+.left_form {
+    width: 50%;
+    position: relative;
+    right: 80%;
+    padding: 10vh 4vh;
+}
+
+.left_form h4 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-align: left;
+
+}
+
+.left_form h3 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: left;
+
+}
+
+.left_form .email_box input {
+    width: 330px;
+    height: 75px;
+    top: 3956.9px;
+    left: 220px;
+    gap: 0px;
+    border-radius: 2px 0px 0px 0px;
+    opacity: 0px;
+    border: none;
+    padding-left: 3vh;
+}
+
+.email_box {
+    display: flex;
+}
+
+.left_form .email_box i {
+    height: 37px;
+    width: 54px;
+    background-color: #5669FF;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    right: 70px;
+    top: 10px;
+    transition: all .3s ease-in-out;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 0.9vh;
+
+
+}
+.email-box {
+    display: flex;
+    margin-top: 1vh;
+}
+
+.email-box input {
+    width: 405px;
+    height: 56px;
+    padding-left: 15px;
+    border: none;
+    background-color: #566aff25;
+    border-radius: 10px;
+}
+
+.email-box input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.email-box i {
+    height: 37px;
+    width: 54px;
+    background-color: #5669FF;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    right: 70px;
+    top: 10px;
+    transition: all .3s ease-in-out;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 0.9vh;
+}
+
+.email-box i:hover {
+    background-color: white;
+    border: 1px solid #5669FF;
+    color: #5669FF;
+    cursor: pointer;
+}
+
+.email-box button i:hover {
+    color: #5669FF;
+}
